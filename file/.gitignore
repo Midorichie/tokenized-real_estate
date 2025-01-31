@@ -1,0 +1,21 @@
+# Clarinet and development artifacts
+.cache/
+cache/
+node_modules/
+*.log
+
+# Environment files
+.env
+.env.local
+
+# Build outputs
+build/
+dist/
+
+# IDE settings
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db

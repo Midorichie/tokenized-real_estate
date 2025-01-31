@@ -1,0 +1,19 @@
+{
+  "name": "tokenized-real-estate",
+  "version": "1.0.0",
+  "description": "Fractional Real Estate Investment Platform on Stacks Blockchain",
+  "main": "index.js",
+  "scripts": {
+    "test": "clarinet test",
+    "deploy": "clarinet deploy",
+    "lint": "eslint ."
+  },
+  "keywords": ["blockchain", "real-estate", "tokenization", "stacks"],
+  "author": "Blockchain Developer",
+  "license": "MIT",
+  "devDependencies": {
+    "@stacks/cli": "^latest",
+    "clarinet": "^latest",
+    "eslint": "^8.0.0"
+  }
+}

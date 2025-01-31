@@ -1,0 +1,18 @@
+[project]
+name = "tokenized-real-estate"
+description = "Fractional Real Estate Investment Platform"
+authors = ["Blockchain Developer"]
+telemetry = false
+cache-dir = "./.cache"
+
+[contracts]
+"ft-trait" = { path = "contracts/ft-trait.clar" }
+"property-token" = { path = "contracts/property-token.clar" }
+"property-marketplace" = { path = "contracts/property-marketplace.clar" }
+"dividend-distributor" = { path = "contracts/dividend-distributor.clar" }
+
+[repl.analysis]
+passes = ["check_checker"]
+
+[repl]
+cost_model = "dev"
