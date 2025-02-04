@@ -1,6 +1,6 @@
 [project]
 name = "tokenized-real-estate"
-description = "Fractional Real Estate Investment Platform"
+description = "Fractional Real Estate Investment Platform with Enhanced Property Verification"
 authors = ["Blockchain Developer"]
 telemetry = false
 cache-dir = "./.cache"
@@ -10,6 +10,7 @@ cache-dir = "./.cache"
 "property-token" = { path = "contracts/property-token.clar" }
 "property-marketplace" = { path = "contracts/property-marketplace.clar" }
 "dividend-distributor" = { path = "contracts/dividend-distributor.clar" }
+"property-verification" = { path = "contracts/property-verification.clar" }
 
 [repl.analysis]
 passes = ["check_checker"]
